@@ -25,7 +25,7 @@ enable_dns_hostnames = true
     Name: "utc-app1"
     env:  "dev"
     team: "wdp"
-    created-by: "serge"
+    created-by: "Lonna"
 }
 }
 
@@ -64,7 +64,7 @@ resource "aws_security_group" "sg" {
   tags = {
     Name = "webserver-sg"
     Team = "Devops"
-    owner = "serge"
+    owner = "Lonna"
   }
 }
   
